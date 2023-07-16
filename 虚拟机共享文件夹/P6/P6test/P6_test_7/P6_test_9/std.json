@@ -1,0 +1,3168 @@
+[
+    {
+        "pc": "0x00003004",
+        "instr": "3c0658ab",
+        "asm": "lui $6,0x000058ab ",
+        "code": "00111100000001100101100010101011",
+        "RegWrite": true,
+        "RegAddr": " 6",
+        "RegData": "0x58ab0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003008",
+        "instr": "3c0e40d9",
+        "asm": "lui $14,0x000040d9 ",
+        "code": "00111100000011100100000011011001",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x40d90000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000300c",
+        "instr": "3c145752",
+        "asm": "lui $20,0x00005752 ",
+        "code": "00111100000101000101011101010010",
+        "RegWrite": true,
+        "RegAddr": "20",
+        "RegData": "0x57520000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003010",
+        "instr": "3c1ff837",
+        "asm": "lui $31,0x0000f837 ",
+        "code": "00111100000111111111100000110111",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0xf8370000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003014",
+        "instr": "0014302a",
+        "asm": "slt $6,$0,$20 ",
+        "code": "00000000000101000011000000101010",
+        "RegWrite": true,
+        "RegAddr": " 6",
+        "RegData": "0x00000001",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003024",
+        "instr": "34140000",
+        "asm": "ori $20,$0,0x00000000 ",
+        "code": "00110100000101000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "20",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003028",
+        "instr": "ae9f0040",
+        "asm": "sw $31,0x00000040($20) ",
+        "code": "10101110100111110000000001000000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000040",
+        "MemData": "0xf8370000"
+    },
+    {
+        "pc": "0x0000302c",
+        "instr": "0014a02b",
+        "asm": "sltu $20,$0,$20 ",
+        "code": "00000000000101001010000000101011",
+        "RegWrite": true,
+        "RegAddr": "20",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003030",
+        "instr": "17f40003",
+        "asm": "bne $31,$20,0x00000003 ",
+        "code": "00010111111101000000000000000011",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003034",
+        "instr": "03ffa020",
+        "asm": "add $20,$31,$31 ",
+        "code": "00000011111111111010000000100000",
+        "RegWrite": true,
+        "RegAddr": "20",
+        "RegData": "0xf06e0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003040",
+        "instr": "23f480a4",
+        "asm": "addi $20,$31,0xffff80a4 ",
+        "code": "00100011111101001000000010100100",
+        "RegWrite": true,
+        "RegAddr": "20",
+        "RegData": "0xf83680a4",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003044",
+        "instr": "340e0000",
+        "asm": "ori $14,$0,0x00000000 ",
+        "code": "00110100000011100000000000000000",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003048",
+        "instr": "85d4002e",
+        "asm": "lh $20,0x0000002e($14) ",
+        "code": "10000101110101000000000000101110",
+        "RegWrite": true,
+        "RegAddr": "20",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000304c",
+        "instr": "00d43025",
+        "asm": "or $6,$6,$20 ",
+        "code": "00000000110101000011000000100101",
+        "RegWrite": true,
+        "RegAddr": " 6",
+        "RegData": "0x00000001",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003050",
+        "instr": "0c000c1a",
+        "asm": "jal 0x00003068 ",
+        "code": "00001100000000000000110000011010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003058",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003054",
+        "instr": "01ce702a",
+        "asm": "slt $14,$14,$14 ",
+        "code": "00000001110011100111000000101010",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003068",
+        "instr": "228e2c6c",
+        "asm": "addi $14,$20,0x00002c6c ",
+        "code": "00100010100011100010110001101100",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x00002c6c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003070",
+        "instr": "a00e003b",
+        "asm": "sb $14,0x0000003b($0) ",
+        "code": "10100000000011100000000000111011",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000038",
+        "MemData": "0x6c000000"
+    },
+    {
+        "pc": "0x00003074",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003078",
+        "instr": "00dfa025",
+        "asm": "or $20,$6,$31 ",
+        "code": "00000000110111111010000000100101",
+        "RegWrite": true,
+        "RegAddr": "20",
+        "RegData": "0x00003059",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003058",
+        "instr": "301f54ab",
+        "asm": "andi $31,$0,0x000054ab ",
+        "code": "00110000000111110101010010101011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000305c",
+        "instr": "0c000c1f",
+        "asm": "jal 0x0000307c ",
+        "code": "00001100000000000000110000011111",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003064",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003060",
+        "instr": "21d4b4cc",
+        "asm": "addi $20,$14,0xffffb4cc ",
+        "code": "00100001110101001011010011001100",
+        "RegWrite": true,
+        "RegAddr": "20",
+        "RegData": "0xffffe138",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000307c",
+        "instr": "0c000c2a",
+        "asm": "jal 0x000030a8 ",
+        "code": "00001100000000000000110000101010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003084",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003080",
+        "instr": "01c67020",
+        "asm": "add $14,$14,$6 ",
+        "code": "00000001110001100111000000100000",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x00002c6d",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030b0",
+        "instr": "800e0008",
+        "asm": "lb $14,0x00000008($0) ",
+        "code": "10000000000011100000000000001000",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030b4",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030b8",
+        "instr": "34060000",
+        "asm": "ori $6,$0,0x00000000 ",
+        "code": "00110100000001100000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 6",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003084",
+        "instr": "34140000",
+        "asm": "ori $20,$0,0x00000000 ",
+        "code": "00110100000101000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "20",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003090",
+        "instr": "a2940053",
+        "asm": "sb $20,0x00000053($20) ",
+        "code": "10100010100101000000000001010011",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000050",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x00003094",
+        "instr": "0c000c32",
+        "asm": "jal 0x000030c8 ",
+        "code": "00001100000000000000110000110010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x0000309c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030c8",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030d0",
+        "instr": "3c0941d8",
+        "asm": "lui $9,0x000041d8 ",
+        "code": "00111100000010010100000111011000",
+        "RegWrite": true,
+        "RegAddr": " 9",
+        "RegData": "0x41d80000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030d4",
+        "instr": "3c122a9f",
+        "asm": "lui $18,0x00002a9f ",
+        "code": "00111100000100100010101010011111",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x2a9f0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030d8",
+        "instr": "3c1c8609",
+        "asm": "lui $28,0x00008609 ",
+        "code": "00111100000111001000011000001001",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x86090000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030dc",
+        "instr": "3c1f4160",
+        "asm": "lui $31,0x00004160 ",
+        "code": "00111100000111110100000101100000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x41600000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030e0",
+        "instr": "3132cad9",
+        "asm": "andi $18,$9,0x0000cad9 ",
+        "code": "00110001001100101100101011011001",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030e4",
+        "instr": "0c000c42",
+        "asm": "jal 0x00003108 ",
+        "code": "00001100000000000000110001000010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000030ec",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030e8",
+        "instr": "340955fa",
+        "asm": "ori $9,$0,0x000055fa ",
+        "code": "00110100000010010101010111111010",
+        "RegWrite": true,
+        "RegAddr": " 9",
+        "RegData": "0x000055fa",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003108",
+        "instr": "025c4820",
+        "asm": "add $9,$18,$28 ",
+        "code": "00000010010111000100100000100000",
+        "RegWrite": true,
+        "RegAddr": " 9",
+        "RegData": "0x86090000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000310c",
+        "instr": "0389482a",
+        "asm": "slt $9,$28,$9 ",
+        "code": "00000011100010010100100000101010",
+        "RegWrite": true,
+        "RegAddr": " 9",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003110",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003114",
+        "instr": "353c0a5f",
+        "asm": "ori $28,$9,0x00000a5f ",
+        "code": "00110101001111000000101001011111",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000a5f",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030ec",
+        "instr": "341c0000",
+        "asm": "ori $28,$0,0x00000000 ",
+        "code": "00110100000111000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030f4",
+        "instr": "83920062",
+        "asm": "lb $18,0x00000062($28) ",
+        "code": "10000011100100100000000001100010",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030f8",
+        "instr": "0c000c46",
+        "asm": "jal 0x00003118 ",
+        "code": "00001100000000000000110001000110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003100",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000030fc",
+        "instr": "03e09025",
+        "asm": "or $18,$31,$0 ",
+        "code": "00000011111000001001000000100101",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x00003100",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003118",
+        "instr": "3009e62a",
+        "asm": "andi $9,$0,0x0000e62a ",
+        "code": "00110000000010011110011000101010",
+        "RegWrite": true,
+        "RegAddr": " 9",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000311c",
+        "instr": "3012afa5",
+        "asm": "andi $18,$0,0x0000afa5 ",
+        "code": "00110000000100101010111110100101",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000312c",
+        "instr": "a01f0010",
+        "asm": "sb $31,0x00000010($0) ",
+        "code": "10100000000111110000000000010000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000010",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x00003130",
+        "instr": "365c0c91",
+        "asm": "ori $28,$18,0x00000c91 ",
+        "code": "00110110010111000000110010010001",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000c91",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003138",
+        "instr": "841f005e",
+        "asm": "lh $31,0x0000005e($0) ",
+        "code": "10000100000111110000000001011110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000313c",
+        "instr": "3649819a",
+        "asm": "ori $9,$18,0x0000819a ",
+        "code": "00110110010010011000000110011010",
+        "RegWrite": true,
+        "RegAddr": " 9",
+        "RegData": "0x0000819a",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003148",
+        "instr": "8409002c",
+        "asm": "lh $9,0x0000002c($0) ",
+        "code": "10000100000010010000000000101100",
+        "RegWrite": true,
+        "RegAddr": " 9",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000314c",
+        "instr": "2129777e",
+        "asm": "addi $9,$9,0x0000777e ",
+        "code": "00100001001010010111011101111110",
+        "RegWrite": true,
+        "RegAddr": " 9",
+        "RegData": "0x0000777e",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003150",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003158",
+        "instr": "3c15be5a",
+        "asm": "lui $21,0x0000be5a ",
+        "code": "00111100000101011011111001011010",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0xbe5a0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000315c",
+        "instr": "3c179ca1",
+        "asm": "lui $23,0x00009ca1 ",
+        "code": "00111100000101111001110010100001",
+        "RegWrite": true,
+        "RegAddr": "23",
+        "RegData": "0x9ca10000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003160",
+        "instr": "3c1a39c1",
+        "asm": "lui $26,0x000039c1 ",
+        "code": "00111100000110100011100111000001",
+        "RegWrite": true,
+        "RegAddr": "26",
+        "RegData": "0x39c10000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003164",
+        "instr": "3c1f715f",
+        "asm": "lui $31,0x0000715f ",
+        "code": "00111100000111110111000101011111",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x715f0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003168",
+        "instr": "34150000",
+        "asm": "ori $21,$0,0x00000000 ",
+        "code": "00110100000101010000000000000000",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000316c",
+        "instr": "aebf0008",
+        "asm": "sw $31,0x00000008($21) ",
+        "code": "10101110101111110000000000001000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000008",
+        "MemData": "0x715f0000"
+    },
+    {
+        "pc": "0x00003170",
+        "instr": "0c000c65",
+        "asm": "jal 0x00003194 ",
+        "code": "00001100000000000000110001100101",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003178",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003194",
+        "instr": "34170000",
+        "asm": "ori $23,$0,0x00000000 ",
+        "code": "00110100000101110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "23",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000319c",
+        "instr": "a2f5005e",
+        "asm": "sb $21,0x0000005e($23) ",
+        "code": "10100010111101010000000001011110",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x0000005c",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000031a0",
+        "instr": "341a0000",
+        "asm": "ori $26,$0,0x00000000 ",
+        "code": "00110100000110100000000000000000",
+        "RegWrite": true,
+        "RegAddr": "26",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000031ac",
+        "instr": "8f570010",
+        "asm": "lw $23,0x00000010($26) ",
+        "code": "10001111010101110000000000010000",
+        "RegWrite": true,
+        "RegAddr": "23",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000031b0",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000031b4",
+        "instr": "34150000",
+        "asm": "ori $21,$0,0x00000000 ",
+        "code": "00110100000101010000000000000000",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000317c",
+        "instr": "0c000c71",
+        "asm": "jal 0x000031c4 ",
+        "code": "00001100000000000000110001110001",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003184",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000031c8",
+        "instr": "3415be91",
+        "asm": "ori $21,$0,0x0000be91 ",
+        "code": "00110100000101011011111010010001",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x0000be91",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000031cc",
+        "instr": "34170000",
+        "asm": "ori $23,$0,0x00000000 ",
+        "code": "00110100000101110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "23",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000031d8",
+        "instr": "a2e00036",
+        "asm": "sb $0,0x00000036($23) ",
+        "code": "10100010111000000000000000110110",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000034",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000031dc",
+        "instr": "13e00005",
+        "asm": "beq $31,$0,0x00000005 ",
+        "code": "00010011111000000000000000000101",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000031f0",
+        "instr": "ac170060",
+        "asm": "sw $23,0x00000060($0) ",
+        "code": "10101100000101110000000001100000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000060",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000031f4",
+        "instr": "0c000c86",
+        "asm": "jal 0x00003218 ",
+        "code": "00001100000000000000110010000110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000031fc",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000031f8",
+        "instr": "22b525da",
+        "asm": "addi $21,$21,0x000025da ",
+        "code": "00100010101101010010010111011010",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x0000e46b",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003220",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000031fc",
+        "instr": "341a0000",
+        "asm": "ori $26,$0,0x00000000 ",
+        "code": "00110100000110100000000000000000",
+        "RegWrite": true,
+        "RegAddr": "26",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003204",
+        "instr": "a7570058",
+        "asm": "sh $23,0x00000058($26) ",
+        "code": "10100111010101110000000001011000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000058",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x00003208",
+        "instr": "0c000c8a",
+        "asm": "jal 0x00003228 ",
+        "code": "00001100000000000000110010001010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003210",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000320c",
+        "instr": "301a3614",
+        "asm": "andi $26,$0,0x00003614 ",
+        "code": "00110000000110100011011000010100",
+        "RegWrite": true,
+        "RegAddr": "26",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003228",
+        "instr": "0000d02b",
+        "asm": "sltu $26,$0,$0 ",
+        "code": "00000000000000001101000000101011",
+        "RegWrite": true,
+        "RegAddr": "26",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000322c",
+        "instr": "341f0000",
+        "asm": "ori $31,$0,0x00000000 ",
+        "code": "00110100000111110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003230",
+        "instr": "aff70014",
+        "asm": "sw $23,0x00000014($31) ",
+        "code": "10101111111101110000000000010100",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000014",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x00003234",
+        "instr": "0c000c94",
+        "asm": "jal 0x00003250 ",
+        "code": "00001100000000000000110010010100",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x0000323c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003238",
+        "instr": "02faa822",
+        "asm": "sub $21,$23,$26 ",
+        "code": "00000010111110101010100000100010",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003250",
+        "instr": "201ab054",
+        "asm": "addi $26,$0,0xffffb054 ",
+        "code": "00100000000110101011000001010100",
+        "RegWrite": true,
+        "RegAddr": "26",
+        "RegData": "0xffffb054",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003254",
+        "instr": "34158388",
+        "asm": "ori $21,$0,0x00008388 ",
+        "code": "00110100000101011000001110001000",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00008388",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003258",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000325c",
+        "instr": "341f0000",
+        "asm": "ori $31,$0,0x00000000 ",
+        "code": "00110100000111110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000323c",
+        "instr": "001ff824",
+        "asm": "and $31,$0,$31 ",
+        "code": "00000000000111111111100000100100",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003240",
+        "instr": "0c000c9a",
+        "asm": "jal 0x00003268 ",
+        "code": "00001100000000000000110010011010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003248",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003244",
+        "instr": "0015f82b",
+        "asm": "sltu $31,$0,$21 ",
+        "code": "00000000000101011111100000101011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000001",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003268",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003270",
+        "instr": "3c0f2749",
+        "asm": "lui $15,0x00002749 ",
+        "code": "00111100000011110010011101001001",
+        "RegWrite": true,
+        "RegAddr": "15",
+        "RegData": "0x27490000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003274",
+        "instr": "3c15a8b9",
+        "asm": "lui $21,0x0000a8b9 ",
+        "code": "00111100000101011010100010111001",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0xa8b90000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003278",
+        "instr": "3c1d7a0e",
+        "asm": "lui $29,0x00007a0e ",
+        "code": "00111100000111010111101000001110",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x7a0e0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000327c",
+        "instr": "3c1f4ba8",
+        "asm": "lui $31,0x00004ba8 ",
+        "code": "00111100000111110100101110101000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x4ba80000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003280",
+        "instr": "02b5f82b",
+        "asm": "sltu $31,$21,$21 ",
+        "code": "00000010101101011111100000101011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003284",
+        "instr": "34150000",
+        "asm": "ori $21,$0,0x00000000 ",
+        "code": "00110100000101010000000000000000",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003288",
+        "instr": "82bf003c",
+        "asm": "lb $31,0x0000003c($21) ",
+        "code": "10000010101111110000000000111100",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000328c",
+        "instr": "13e00003",
+        "asm": "beq $31,$0,0x00000003 ",
+        "code": "00010011111000000000000000000011",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003290",
+        "instr": "37bf034d",
+        "asm": "ori $31,$29,0x0000034d ",
+        "code": "00110111101111110000001101001101",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x7a0e034d",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032a0",
+        "instr": "0c000cb1",
+        "asm": "jal 0x000032c4 ",
+        "code": "00001100000000000000110010110001",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000032a8",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032a4",
+        "instr": "001d782a",
+        "asm": "slt $15,$0,$29 ",
+        "code": "00000000000111010111100000101010",
+        "RegWrite": true,
+        "RegAddr": "15",
+        "RegData": "0x00000001",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032d0",
+        "instr": "a01d0046",
+        "asm": "sb $29,0x00000046($0) ",
+        "code": "10100000000111010000000001000110",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000044",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000032d4",
+        "instr": "31f526e9",
+        "asm": "andi $21,$15,0x000026e9 ",
+        "code": "00110001111101010010011011101001",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00000001",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032d8",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032dc",
+        "instr": "03b5a824",
+        "asm": "and $21,$29,$21 ",
+        "code": "00000011101101011010100000100100",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032a8",
+        "instr": "02bda820",
+        "asm": "add $21,$21,$29 ",
+        "code": "00000010101111011010100000100000",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x7a0e0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032ac",
+        "instr": "0c000cb8",
+        "asm": "jal 0x000032e0 ",
+        "code": "00001100000000000000110010111000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000032b4",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032e0",
+        "instr": "01ffe824",
+        "asm": "and $29,$15,$31 ",
+        "code": "00000001111111111110100000100100",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032e4",
+        "instr": "340f0000",
+        "asm": "ori $15,$0,0x00000000 ",
+        "code": "00110100000011110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "15",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032f0",
+        "instr": "141f0002",
+        "asm": "bne $0,$31,0x00000002 ",
+        "code": "00010100000111110000000000000010",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032f4",
+        "instr": "03bf7825",
+        "asm": "or $15,$29,$31 ",
+        "code": "00000011101111110111100000100101",
+        "RegWrite": true,
+        "RegAddr": "15",
+        "RegData": "0x000032b4",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000032fc",
+        "instr": "341f0000",
+        "asm": "ori $31,$0,0x00000000 ",
+        "code": "00110100000111110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003308",
+        "instr": "afff003c",
+        "asm": "sw $31,0x0000003c($31) ",
+        "code": "10101111111111110000000000111100",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x0000003c",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x0000330c",
+        "instr": "341d0000",
+        "asm": "ori $29,$0,0x00000000 ",
+        "code": "00110100000111010000000000000000",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003314",
+        "instr": "a7af0012",
+        "asm": "sh $15,0x00000012($29) ",
+        "code": "10100111101011110000000000010010",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000010",
+        "MemData": "0x32b40000"
+    },
+    {
+        "pc": "0x00003318",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003320",
+        "instr": "3c034cf8",
+        "asm": "lui $3,0x00004cf8 ",
+        "code": "00111100000000110100110011111000",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0x4cf80000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003324",
+        "instr": "3c13861b",
+        "asm": "lui $19,0x0000861b ",
+        "code": "00111100000100111000011000011011",
+        "RegWrite": true,
+        "RegAddr": "19",
+        "RegData": "0x861b0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003328",
+        "instr": "3c16600b",
+        "asm": "lui $22,0x0000600b ",
+        "code": "00111100000101100110000000001011",
+        "RegWrite": true,
+        "RegAddr": "22",
+        "RegData": "0x600b0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000332c",
+        "instr": "3c1fccf0",
+        "asm": "lui $31,0x0000ccf0 ",
+        "code": "00111100000111111100110011110000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0xccf00000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003330",
+        "instr": "32df7c12",
+        "asm": "andi $31,$22,0x00007c12 ",
+        "code": "00110010110111110111110000010010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003334",
+        "instr": "00601820",
+        "asm": "add $3,$3,$0 ",
+        "code": "00000000011000000001100000100000",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0x4cf80000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003338",
+        "instr": "14030002",
+        "asm": "bne $0,$3,0x00000002 ",
+        "code": "00010100000000110000000000000010",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000333c",
+        "instr": "03f6982b",
+        "asm": "sltu $19,$31,$22 ",
+        "code": "00000011111101101001100000101011",
+        "RegWrite": true,
+        "RegAddr": "19",
+        "RegData": "0x00000001",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003348",
+        "instr": "02d6b024",
+        "asm": "and $22,$22,$22 ",
+        "code": "00000010110101101011000000100100",
+        "RegWrite": true,
+        "RegAddr": "22",
+        "RegData": "0x600b0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000334c",
+        "instr": "2276e7f9",
+        "asm": "addi $22,$19,0xffffe7f9 ",
+        "code": "00100010011101101110011111111001",
+        "RegWrite": true,
+        "RegAddr": "22",
+        "RegData": "0xffffe7fa",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003350",
+        "instr": "03f6982b",
+        "asm": "sltu $19,$31,$22 ",
+        "code": "00000011111101101001100000101011",
+        "RegWrite": true,
+        "RegAddr": "19",
+        "RegData": "0x00000001",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003354",
+        "instr": "007f982b",
+        "asm": "sltu $19,$3,$31 ",
+        "code": "00000000011111111001100000101011",
+        "RegWrite": true,
+        "RegAddr": "19",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003358",
+        "instr": "00601824",
+        "asm": "and $3,$3,$0 ",
+        "code": "00000000011000000001100000100100",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000335c",
+        "instr": "0c000cdd",
+        "asm": "jal 0x00003374 ",
+        "code": "00001100000000000000110011011101",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003364",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003360",
+        "instr": "34134d1c",
+        "asm": "ori $19,$0,0x00004d1c ",
+        "code": "00110100000100110100110100011100",
+        "RegWrite": true,
+        "RegAddr": "19",
+        "RegData": "0x00004d1c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003374",
+        "instr": "34130000",
+        "asm": "ori $19,$0,0x00000000 ",
+        "code": "00110100000100110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "19",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003378",
+        "instr": "a6630054",
+        "asm": "sh $3,0x00000054($19) ",
+        "code": "10100110011000110000000001010100",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000054",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x0000337c",
+        "instr": "34030000",
+        "asm": "ori $3,$0,0x00000000 ",
+        "code": "00110100000000110000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000338c",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003390",
+        "instr": "34030000",
+        "asm": "ori $3,$0,0x00000000 ",
+        "code": "00110100000000110000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003364",
+        "instr": "2263f920",
+        "asm": "addi $3,$19,0xfffff920 ",
+        "code": "00100010011000111111100100100000",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0xfffff920",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003368",
+        "instr": "0c000ce7",
+        "asm": "jal 0x0000339c ",
+        "code": "00001100000000000000110011100111",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003370",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000336c",
+        "instr": "30167cc0",
+        "asm": "andi $22,$0,0x00007cc0 ",
+        "code": "00110000000101100111110011000000",
+        "RegWrite": true,
+        "RegAddr": "22",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000339c",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033a4",
+        "instr": "3c03dc08",
+        "asm": "lui $3,0x0000dc08 ",
+        "code": "00111100000000111101110000001000",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0xdc080000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033a8",
+        "instr": "3c15c6fa",
+        "asm": "lui $21,0x0000c6fa ",
+        "code": "00111100000101011100011011111010",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0xc6fa0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033ac",
+        "instr": "3c1d35bf",
+        "asm": "lui $29,0x000035bf ",
+        "code": "00111100000111010011010110111111",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x35bf0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033b0",
+        "instr": "3c1fc8bd",
+        "asm": "lui $31,0x0000c8bd ",
+        "code": "00111100000111111100100010111101",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0xc8bd0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033b4",
+        "instr": "0c000cf4",
+        "asm": "jal 0x000033d0 ",
+        "code": "00001100000000000000110011110100",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000033bc",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033b8",
+        "instr": "0060a825",
+        "asm": "or $21,$3,$0 ",
+        "code": "00000000011000001010100000100101",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0xdc080000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033d4",
+        "instr": "a403003e",
+        "asm": "sh $3,0x0000003e($0) ",
+        "code": "10100100000000110000000000111110",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x0000003c",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000033d8",
+        "instr": "341d0000",
+        "asm": "ori $29,$0,0x00000000 ",
+        "code": "00110100000111010000000000000000",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033e4",
+        "instr": "a7a3005c",
+        "asm": "sh $3,0x0000005c($29) ",
+        "code": "10100111101000110000000001011100",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x0000005c",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000033e8",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033ec",
+        "instr": "34030000",
+        "asm": "ori $3,$0,0x00000000 ",
+        "code": "00110100000000110000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033c0",
+        "instr": "0c000cfe",
+        "asm": "jal 0x000033f8 ",
+        "code": "00001100000000000000110011111110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000033c8",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033f8",
+        "instr": "0063e820",
+        "asm": "add $29,$3,$3 ",
+        "code": "00000000011000111110100000100000",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000033fc",
+        "instr": "007da820",
+        "asm": "add $21,$3,$29 ",
+        "code": "00000000011111011010100000100000",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003400",
+        "instr": "341f0000",
+        "asm": "ori $31,$0,0x00000000 ",
+        "code": "00110100000111110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003408",
+        "instr": "afe30040",
+        "asm": "sw $3,0x00000040($31) ",
+        "code": "10101111111000110000000001000000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000040",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x0000340c",
+        "instr": "10000003",
+        "asm": "beq $0,$0,0x00000003 ",
+        "code": "00010000000000000000000000000011",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003410",
+        "instr": "33b5b5c7",
+        "asm": "andi $21,$29,0x0000b5c7 ",
+        "code": "00110011101101011011010111000111",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000341c",
+        "instr": "34030000",
+        "asm": "ori $3,$0,0x00000000 ",
+        "code": "00110100000000110000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003438",
+        "instr": "37f59c1c",
+        "asm": "ori $21,$31,0x00009c1c ",
+        "code": "00110111111101011001110000011100",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00009c1c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000343c",
+        "instr": "0c000d15",
+        "asm": "jal 0x00003454 ",
+        "code": "00001100000000000000110100010101",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003444",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003440",
+        "instr": "36b51eec",
+        "asm": "ori $21,$21,0x00001eec ",
+        "code": "00110110101101010001111011101100",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00009efc",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003454",
+        "instr": "22b5dcf0",
+        "asm": "addi $21,$21,0xffffdcf0 ",
+        "code": "00100010101101011101110011110000",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00007bec",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003458",
+        "instr": "03a3a824",
+        "asm": "and $21,$29,$3 ",
+        "code": "00000011101000111010100000100100",
+        "RegWrite": true,
+        "RegAddr": "21",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000345c",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003444",
+        "instr": "300374c9",
+        "asm": "andi $3,$0,0x000074c9 ",
+        "code": "00110000000000110111010011001001",
+        "RegWrite": true,
+        "RegAddr": " 3",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003448",
+        "instr": "0c000d1c",
+        "asm": "jal 0x00003470 ",
+        "code": "00001100000000000000110100011100",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003450",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000344c",
+        "instr": "03e0e820",
+        "asm": "add $29,$31,$0 ",
+        "code": "00000011111000001110100000100000",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00003450",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003470",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003478",
+        "instr": "3c0ca056",
+        "asm": "lui $12,0x0000a056 ",
+        "code": "00111100000011001010000001010110",
+        "RegWrite": true,
+        "RegAddr": "12",
+        "RegData": "0xa0560000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000347c",
+        "instr": "3c1bbfd1",
+        "asm": "lui $27,0x0000bfd1 ",
+        "code": "00111100000110111011111111010001",
+        "RegWrite": true,
+        "RegAddr": "27",
+        "RegData": "0xbfd10000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003480",
+        "instr": "3c1ca9c1",
+        "asm": "lui $28,0x0000a9c1 ",
+        "code": "00111100000111001010100111000001",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0xa9c10000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003484",
+        "instr": "3c1ff1a3",
+        "asm": "lui $31,0x0000f1a3 ",
+        "code": "00111100000111111111000110100011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0xf1a30000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003488",
+        "instr": "0c000d2c",
+        "asm": "jal 0x000034b0 ",
+        "code": "00001100000000000000110100101100",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003490",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034b0",
+        "instr": "200c9562",
+        "asm": "addi $12,$0,0xffff9562 ",
+        "code": "00100000000011001001010101100010",
+        "RegWrite": true,
+        "RegAddr": "12",
+        "RegData": "0xffff9562",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034b4",
+        "instr": "0180e025",
+        "asm": "or $28,$12,$0 ",
+        "code": "00000001100000001110000000100101",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0xffff9562",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034b8",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034bc",
+        "instr": "341f0000",
+        "asm": "ori $31,$0,0x00000000 ",
+        "code": "00110100000111110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003490",
+        "instr": "341c0000",
+        "asm": "ori $28,$0,0x00000000 ",
+        "code": "00110100000111000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003494",
+        "instr": "af9b0060",
+        "asm": "sw $27,0x00000060($28) ",
+        "code": "10101111100110110000000001100000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000060",
+        "MemData": "0xbfd10000"
+    },
+    {
+        "pc": "0x00003498",
+        "instr": "0c000d32",
+        "asm": "jal 0x000034c8 ",
+        "code": "00001100000000000000110100110010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000034a0",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000349c",
+        "instr": "379ff150",
+        "asm": "ori $31,$28,0x0000f150 ",
+        "code": "00110111100111111111000101010000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x0000f150",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034c8",
+        "instr": "0c000d3d",
+        "asm": "jal 0x000034f4 ",
+        "code": "00001100000000000000110100111101",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000034d0",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034cc",
+        "instr": "200c9638",
+        "asm": "addi $12,$0,0xffff9638 ",
+        "code": "00100000000011001001011000111000",
+        "RegWrite": true,
+        "RegAddr": "12",
+        "RegData": "0xffff9638",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034f4",
+        "instr": "340c0000",
+        "asm": "ori $12,$0,0x00000000 ",
+        "code": "00110100000011000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "12",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003500",
+        "instr": "219ceb2f",
+        "asm": "addi $28,$12,0xffffeb2f ",
+        "code": "00100001100111001110101100101111",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0xffffeb2f",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003504",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003508",
+        "instr": "218cd580",
+        "asm": "addi $12,$12,0xffffd580 ",
+        "code": "00100001100011001101010110000000",
+        "RegWrite": true,
+        "RegAddr": "12",
+        "RegData": "0xffffd580",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034d0",
+        "instr": "341f0000",
+        "asm": "ori $31,$0,0x00000000 ",
+        "code": "00110100000111110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034dc",
+        "instr": "a7fb0002",
+        "asm": "sh $27,0x00000002($31) ",
+        "code": "10100111111110110000000000000010",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000000",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000034e0",
+        "instr": "0c000d43",
+        "asm": "jal 0x0000350c ",
+        "code": "00001100000000000000110101000011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000034e8",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000034e4",
+        "instr": "03ece02a",
+        "asm": "slt $28,$31,$12 ",
+        "code": "00000011111011001110000000101010",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003510",
+        "instr": "341f0000",
+        "asm": "ori $31,$0,0x00000000 ",
+        "code": "00110100000111110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003518",
+        "instr": "afe00008",
+        "asm": "sw $0,0x00000008($31) ",
+        "code": "10101111111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000008",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x0000351c",
+        "instr": "14000004",
+        "asm": "bne $0,$0,0x00000004 ",
+        "code": "00010100000000000000000000000100",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003520",
+        "instr": "0180e025",
+        "asm": "or $28,$12,$0 ",
+        "code": "00000001100000001110000000100101",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0xffffd580",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000352c",
+        "instr": "841c0002",
+        "asm": "lh $28,0x00000002($0) ",
+        "code": "10000100000111000000000000000010",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003530",
+        "instr": "341c0000",
+        "asm": "ori $28,$0,0x00000000 ",
+        "code": "00110100000111000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003534",
+        "instr": "839c0001",
+        "asm": "lb $28,0x00000001($28) ",
+        "code": "10000011100111000000000000000001",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003538",
+        "instr": "341b0000",
+        "asm": "ori $27,$0,0x00000000 ",
+        "code": "00110100000110110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "27",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000353c",
+        "instr": "af7b0040",
+        "asm": "sw $27,0x00000040($27) ",
+        "code": "10101111011110110000000001000000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000040",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x00003540",
+        "instr": "039ff82b",
+        "asm": "sltu $31,$28,$31 ",
+        "code": "00000011100111111111100000101011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003544",
+        "instr": "341f318b",
+        "asm": "ori $31,$0,0x0000318b ",
+        "code": "00110100000111110011000110001011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x0000318b",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003548",
+        "instr": "178c0002",
+        "asm": "bne $28,$12,0x00000002 ",
+        "code": "00010111100011000000000000000010",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000354c",
+        "instr": "23ecd46b",
+        "asm": "addi $12,$31,0xffffd46b ",
+        "code": "00100011111011001101010001101011",
+        "RegWrite": true,
+        "RegAddr": "12",
+        "RegData": "0x000005f6",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003554",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000355c",
+        "instr": "3c057e3f",
+        "asm": "lui $5,0x00007e3f ",
+        "code": "00111100000001010111111000111111",
+        "RegWrite": true,
+        "RegAddr": " 5",
+        "RegData": "0x7e3f0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003560",
+        "instr": "3c0e3db8",
+        "asm": "lui $14,0x00003db8 ",
+        "code": "00111100000011100011110110111000",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x3db80000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003564",
+        "instr": "3c1d4e97",
+        "asm": "lui $29,0x00004e97 ",
+        "code": "00111100000111010100111010010111",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x4e970000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003568",
+        "instr": "3c1f2850",
+        "asm": "lui $31,0x00002850 ",
+        "code": "00111100000111110010100001010000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x28500000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003570",
+        "instr": "801d0032",
+        "asm": "lb $29,0x00000032($0) ",
+        "code": "10000000000111010000000000110010",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003574",
+        "instr": "0c000d63",
+        "asm": "jal 0x0000358c ",
+        "code": "00001100000000000000110101100011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x0000357c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003578",
+        "instr": "3405f492",
+        "asm": "ori $5,$0,0x0000f492 ",
+        "code": "00110100000001011111010010010010",
+        "RegWrite": true,
+        "RegAddr": " 5",
+        "RegData": "0x0000f492",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000358c",
+        "instr": "340e0000",
+        "asm": "ori $14,$0,0x00000000 ",
+        "code": "00110100000011100000000000000000",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003590",
+        "instr": "a5c50060",
+        "asm": "sh $5,0x00000060($14) ",
+        "code": "10100101110001010000000001100000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000060",
+        "MemData": "0xbfd1f492"
+    },
+    {
+        "pc": "0x00003594",
+        "instr": "00ae702b",
+        "asm": "sltu $14,$5,$14 ",
+        "code": "00000000101011100111000000101011",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003598",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000359c",
+        "instr": "23ee7c33",
+        "asm": "addi $14,$31,0x00007c33 ",
+        "code": "00100011111011100111110000110011",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x0000b1af",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000357c",
+        "instr": "301deb94",
+        "asm": "andi $29,$0,0x0000eb94 ",
+        "code": "00110000000111011110101110010100",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003580",
+        "instr": "0c000d68",
+        "asm": "jal 0x000035a0 ",
+        "code": "00001100000000000000110101101000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003588",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003584",
+        "instr": "20bf1256",
+        "asm": "addi $31,$5,0x00001256 ",
+        "code": "00100000101111110001001001010110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000106e8",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035a0",
+        "instr": "0c000d6e",
+        "asm": "jal 0x000035b8 ",
+        "code": "00001100000000000000110101101110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000035a8",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035a4",
+        "instr": "34a55d4e",
+        "asm": "ori $5,$5,0x00005d4e ",
+        "code": "00110100101001010101110101001110",
+        "RegWrite": true,
+        "RegAddr": " 5",
+        "RegData": "0x0000fdde",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035b8",
+        "instr": "20a5387e",
+        "asm": "addi $5,$5,0x0000387e ",
+        "code": "00100000101001010011100001111110",
+        "RegWrite": true,
+        "RegAddr": " 5",
+        "RegData": "0x0001365c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035bc",
+        "instr": "2005491e",
+        "asm": "addi $5,$0,0x0000491e ",
+        "code": "00100000000001010100100100011110",
+        "RegWrite": true,
+        "RegAddr": " 5",
+        "RegData": "0x0000491e",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035c0",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035c4",
+        "instr": "20bd9af9",
+        "asm": "addi $29,$5,0xffff9af9 ",
+        "code": "00100000101111011001101011111001",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0xffffe417",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035a8",
+        "instr": "201d5436",
+        "asm": "addi $29,$0,0x00005436 ",
+        "code": "00100000000111010101010000110110",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00005436",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035ac",
+        "instr": "0c000d72",
+        "asm": "jal 0x000035c8 ",
+        "code": "00001100000000000000110101110010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000035b4",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035b0",
+        "instr": "03e07022",
+        "asm": "sub $14,$31,$0 ",
+        "code": "00000011111000000111000000100010",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x000035b4",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035d0",
+        "instr": "a01f0010",
+        "asm": "sb $31,0x00000010($0) ",
+        "code": "10100000000111110000000000010000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000010",
+        "MemData": "0x32b400b4"
+    },
+    {
+        "pc": "0x000035d4",
+        "instr": "37a5fa05",
+        "asm": "ori $5,$29,0x0000fa05 ",
+        "code": "00110111101001011111101000000101",
+        "RegWrite": true,
+        "RegAddr": " 5",
+        "RegData": "0x0000fe37",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035dc",
+        "instr": "0c000d7f",
+        "asm": "jal 0x000035fc ",
+        "code": "00001100000000000000110101111111",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000035e4",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035e0",
+        "instr": "30a53fc4",
+        "asm": "andi $5,$5,0x00003fc4 ",
+        "code": "00110000101001010011111111000100",
+        "RegWrite": true,
+        "RegAddr": " 5",
+        "RegData": "0x00003e04",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003600",
+        "instr": "341d0000",
+        "asm": "ori $29,$0,0x00000000 ",
+        "code": "00110100000111010000000000000000",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000360c",
+        "instr": "87bd005c",
+        "asm": "lh $29,0x0000005c($29) ",
+        "code": "10000111101111010000000001011100",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003610",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035e4",
+        "instr": "340e0000",
+        "asm": "ori $14,$0,0x00000000 ",
+        "code": "00110100000011100000000000000000",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035f0",
+        "instr": "0c000d88",
+        "asm": "jal 0x00003620 ",
+        "code": "00001100000000000000110110001000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000035f8",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000035f4",
+        "instr": "37a5c648",
+        "asm": "ori $5,$29,0x0000c648 ",
+        "code": "00110111101001011100011001001000",
+        "RegWrite": true,
+        "RegAddr": " 5",
+        "RegData": "0x0000c648",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003620",
+        "instr": "340e0000",
+        "asm": "ori $14,$0,0x00000000 ",
+        "code": "00110100000011100000000000000000",
+        "RegWrite": true,
+        "RegAddr": "14",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000362c",
+        "instr": "a1c0000d",
+        "asm": "sb $0,0x0000000d($14) ",
+        "code": "10100001110000000000000000001101",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x0000000c",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x00003630",
+        "instr": "00a5e82a",
+        "asm": "slt $29,$5,$5 ",
+        "code": "00000000101001011110100000101010",
+        "RegWrite": true,
+        "RegAddr": "29",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003638",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003640",
+        "instr": "3c06df05",
+        "asm": "lui $6,0x0000df05 ",
+        "code": "00111100000001101101111100000101",
+        "RegWrite": true,
+        "RegAddr": " 6",
+        "RegData": "0xdf050000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003644",
+        "instr": "3c1093be",
+        "asm": "lui $16,0x000093be ",
+        "code": "00111100000100001001001110111110",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x93be0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003648",
+        "instr": "3c128c8d",
+        "asm": "lui $18,0x00008c8d ",
+        "code": "00111100000100101000110010001101",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x8c8d0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000364c",
+        "instr": "3c1fe7f4",
+        "asm": "lui $31,0x0000e7f4 ",
+        "code": "00111100000111111110011111110100",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0xe7f40000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003650",
+        "instr": "221f9723",
+        "asm": "addi $31,$16,0xffff9723 ",
+        "code": "00100010000111111001011100100011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x93bd9723",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003654",
+        "instr": "0c000da1",
+        "asm": "jal 0x00003684 ",
+        "code": "00001100000000000000110110100001",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x0000365c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003658",
+        "instr": "30d00573",
+        "asm": "andi $16,$6,0x00000573 ",
+        "code": "00110000110100000000010101110011",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003684",
+        "instr": "34120000",
+        "asm": "ori $18,$0,0x00000000 ",
+        "code": "00110100000100100000000000000000",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003688",
+        "instr": "a652002c",
+        "asm": "sh $18,0x0000002c($18) ",
+        "code": "10100110010100100000000000101100",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x0000002c",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x0000368c",
+        "instr": "34100000",
+        "asm": "ori $16,$0,0x00000000 ",
+        "code": "00110100000100000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003698",
+        "instr": "a2100037",
+        "asm": "sb $16,0x00000037($16) ",
+        "code": "10100010000100000000000000110111",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000034",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x0000369c",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036a0",
+        "instr": "34100000",
+        "asm": "ori $16,$0,0x00000000 ",
+        "code": "00110100000100000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000365c",
+        "instr": "34060000",
+        "asm": "ori $6,$0,0x00000000 ",
+        "code": "00110100000001100000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 6",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003668",
+        "instr": "84df005e",
+        "asm": "lh $31,0x0000005e($6) ",
+        "code": "10000100110111110000000001011110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000366c",
+        "instr": "0c000dab",
+        "asm": "jal 0x000036ac ",
+        "code": "00001100000000000000110110101011",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00003674",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036b4",
+        "instr": "ac00005c",
+        "asm": "sw $0,0x0000005c($0) ",
+        "code": "10101100000000000000000001011100",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x0000005c",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000036b8",
+        "instr": "13ff0002",
+        "asm": "beq $31,$31,0x00000002 ",
+        "code": "00010011111111110000000000000010",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036bc",
+        "instr": "225f1f5c",
+        "asm": "addi $31,$18,0x00001f5c ",
+        "code": "00100010010111110001111101011100",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00001f5c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036c4",
+        "instr": "0c000db8",
+        "asm": "jal 0x000036e0 ",
+        "code": "00001100000000000000110110111000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000036cc",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036e0",
+        "instr": "34120000",
+        "asm": "ori $18,$0,0x00000000 ",
+        "code": "00110100000100100000000000000000",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036ec",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036f0",
+        "instr": "34d0ca31",
+        "asm": "ori $16,$6,0x0000ca31 ",
+        "code": "00110100110100001100101000110001",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x0000ca31",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036d0",
+        "instr": "0c000dbd",
+        "asm": "jal 0x000036f4 ",
+        "code": "00001100000000000000110110111101",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000036d8",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036d4",
+        "instr": "32127d19",
+        "asm": "andi $18,$16,0x00007d19 ",
+        "code": "00110010000100100111110100011001",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x00004811",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000036fc",
+        "instr": "8406005c",
+        "asm": "lh $6,0x0000005c($0) ",
+        "code": "10000100000001100000000001011100",
+        "RegWrite": true,
+        "RegAddr": " 6",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003700",
+        "instr": "34060000",
+        "asm": "ori $6,$0,0x00000000 ",
+        "code": "00110100000001100000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 6",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003708",
+        "instr": "84c6002e",
+        "asm": "lh $6,0x0000002e($6) ",
+        "code": "10000100110001100000000000101110",
+        "RegWrite": true,
+        "RegAddr": " 6",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000370c",
+        "instr": "341f0000",
+        "asm": "ori $31,$0,0x00000000 ",
+        "code": "00110100000111110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003718",
+        "instr": "83f20021",
+        "asm": "lb $18,0x00000021($31) ",
+        "code": "10000011111100100000000000100001",
+        "RegWrite": true,
+        "RegAddr": "18",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003720",
+        "instr": "2250aea0",
+        "asm": "addi $16,$18,0xffffaea0 ",
+        "code": "00100010010100001010111010100000",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0xffffaea0",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003724",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000372c",
+        "instr": "3c109fa7",
+        "asm": "lui $16,0x00009fa7 ",
+        "code": "00111100000100001001111110100111",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x9fa70000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003730",
+        "instr": "3c1189bc",
+        "asm": "lui $17,0x000089bc ",
+        "code": "00111100000100011000100110111100",
+        "RegWrite": true,
+        "RegAddr": "17",
+        "RegData": "0x89bc0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003734",
+        "instr": "3c1cbf2e",
+        "asm": "lui $28,0x0000bf2e ",
+        "code": "00111100000111001011111100101110",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0xbf2e0000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003738",
+        "instr": "3c1f9006",
+        "asm": "lui $31,0x00009006 ",
+        "code": "00111100000111111001000000000110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x90060000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000373c",
+        "instr": "34100000",
+        "asm": "ori $16,$0,0x00000000 ",
+        "code": "00110100000100000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000374c",
+        "instr": "0380882a",
+        "asm": "slt $17,$28,$0 ",
+        "code": "00000011100000001000100000101010",
+        "RegWrite": true,
+        "RegAddr": "17",
+        "RegData": "0x00000001",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003750",
+        "instr": "123c0004",
+        "asm": "beq $17,$28,0x00000004 ",
+        "code": "00010010001111000000000000000100",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003758",
+        "instr": "34100000",
+        "asm": "ori $16,$0,0x00000000 ",
+        "code": "00110100000100000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003760",
+        "instr": "a21f0029",
+        "asm": "sb $31,0x00000029($16) ",
+        "code": "10100010000111110000000000101001",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000028",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x00003764",
+        "instr": "179f0005",
+        "asm": "bne $28,$31,0x00000005 ",
+        "code": "00010111100111110000000000000101",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003768",
+        "instr": "221c7196",
+        "asm": "addi $28,$16,0x00007196 ",
+        "code": "00100010000111000111000110010110",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00007196",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000377c",
+        "instr": "34110000",
+        "asm": "ori $17,$0,0x00000000 ",
+        "code": "00110100000100010000000000000000",
+        "RegWrite": true,
+        "RegAddr": "17",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003784",
+        "instr": "863f0062",
+        "asm": "lh $31,0x00000062($17) ",
+        "code": "10000110001111110000000001100010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0xffffbfd1",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003788",
+        "instr": "123f0005",
+        "asm": "beq $17,$31,0x00000005 ",
+        "code": "00010010001111110000000000000101",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003790",
+        "instr": "341f0000",
+        "asm": "ori $31,$0,0x00000000 ",
+        "code": "00110100000111110000000000000000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000379c",
+        "instr": "afe0005c",
+        "asm": "sw $0,0x0000005c($31) ",
+        "code": "10101111111000000000000001011100",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x0000005c",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000037a0",
+        "instr": "16310005",
+        "asm": "bne $17,$17,0x00000005 ",
+        "code": "00010110001100010000000000000101",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037a4",
+        "instr": "339fe988",
+        "asm": "andi $31,$28,0x0000e988 ",
+        "code": "00110011100111111110100110001000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x00006180",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037a8",
+        "instr": "34100000",
+        "asm": "ori $16,$0,0x00000000 ",
+        "code": "00110100000100000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037b4",
+        "instr": "a61c0058",
+        "asm": "sh $28,0x00000058($16) ",
+        "code": "10100110000111000000000001011000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000058",
+        "MemData": "0x00007196"
+    },
+    {
+        "pc": "0x000037b8",
+        "instr": "0c000df6",
+        "asm": "jal 0x000037d8 ",
+        "code": "00001100000000000000110111110110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000037c0",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037d8",
+        "instr": "3211f0c4",
+        "asm": "andi $17,$16,0x0000f0c4 ",
+        "code": "00110010000100011111000011000100",
+        "RegWrite": true,
+        "RegAddr": "17",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037dc",
+        "instr": "001c8822",
+        "asm": "sub $17,$0,$28 ",
+        "code": "00000000000111001000100000100010",
+        "RegWrite": true,
+        "RegAddr": "17",
+        "RegData": "0xffff8e6a",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037e0",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037e4",
+        "instr": "37f127ce",
+        "asm": "ori $17,$31,0x000027ce ",
+        "code": "00110111111100010010011111001110",
+        "RegWrite": true,
+        "RegAddr": "17",
+        "RegData": "0x000037ce",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037c0",
+        "instr": "34110000",
+        "asm": "ori $17,$0,0x00000000 ",
+        "code": "00110100000100010000000000000000",
+        "RegWrite": true,
+        "RegAddr": "17",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037c8",
+        "instr": "8e3c0020",
+        "asm": "lw $28,0x00000020($17) ",
+        "code": "10001110001111000000000000100000",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037cc",
+        "instr": "0c000dfa",
+        "asm": "jal 0x000037e8 ",
+        "code": "00001100000000000000110111111010",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000037d4",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037d0",
+        "instr": "36105ad9",
+        "asm": "ori $16,$16,0x00005ad9 ",
+        "code": "00110110000100000101101011011001",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00005ad9",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037f0",
+        "instr": "a0000027",
+        "asm": "sb $0,0x00000027($0) ",
+        "code": "10100000000000000000000000100111",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000024",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x000037f4",
+        "instr": "0c000e06",
+        "asm": "jal 0x00003818 ",
+        "code": "00001100000000000000111000000110",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x000037fc",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x000037f8",
+        "instr": "0231802a",
+        "asm": "slt $16,$17,$17 ",
+        "code": "00000010001100011000000000101010",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003818",
+        "instr": "341c0000",
+        "asm": "ori $28,$0,0x00000000 ",
+        "code": "00110100000111000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000381c",
+        "instr": "8f900014",
+        "asm": "lw $16,0x00000014($28) ",
+        "code": "10001111100100000000000000010100",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003820",
+        "instr": "34100000",
+        "asm": "ori $16,$0,0x00000000 ",
+        "code": "00110100000100000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x0000382c",
+        "instr": "ae1c0028",
+        "asm": "sw $28,0x00000028($16) ",
+        "code": "10101110000111000000000000101000",
+        "RegWrite": false,
+        "MemWrite": true,
+        "MemAddr": "0x00000028",
+        "MemData": "0x00000000"
+    },
+    {
+        "pc": "0x00003830",
+        "instr": "03e00008",
+        "asm": "jr $31 ",
+        "code": "00000011111000000000000000001000",
+        "RegWrite": false,
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003834",
+        "instr": "341c0000",
+        "asm": "ori $28,$0,0x00000000 ",
+        "code": "00110100000111000000000000000000",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003800",
+        "instr": "8410002e",
+        "asm": "lh $16,0x0000002e($0) ",
+        "code": "10000100000100000000000000101110",
+        "RegWrite": true,
+        "RegAddr": "16",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003804",
+        "instr": "0c000e10",
+        "asm": "jal 0x00003840 ",
+        "code": "00001100000000000000111000010000",
+        "RegWrite": true,
+        "RegAddr": "31",
+        "RegData": "0x0000380c",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003808",
+        "instr": "201cef14",
+        "asm": "addi $28,$0,0xffffef14 ",
+        "code": "00100000000111001110111100010100",
+        "RegWrite": true,
+        "RegAddr": "28",
+        "RegData": "0xffffef14",
+        "MemWrite": false
+    },
+    {
+        "pc": "0x00003840",
+        "instr": "3c010000",
+        "asm": "lui $1,0x00000000 ",
+        "code": "00111100000000010000000000000000",
+        "RegWrite": true,
+        "RegAddr": " 1",
+        "RegData": "0x00000000",
+        "MemWrite": false
+    }
+]

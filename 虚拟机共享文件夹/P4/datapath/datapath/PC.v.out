@@ -1,0 +1,75 @@
+#! c:/iverilog-x86/bin/vvp
+:ivl_version "10.0 (stable)" "(v10_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_01183a08 .scope module, "PC" "PC" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "clk"
+    .port_info 1 /INPUT 1 "reset"
+    .port_info 2 /OUTPUT 32 "pc"
+    .port_info 3 /INPUT 32 "relativeDis"
+    .port_info 4 /INPUT 1 "branch"
+    .port_info 5 /INPUT 1 "jump"
+    .port_info 6 /INPUT 26 "jTo_"
+o01073fc4 .functor BUFZ 1, C4<z>; HiZ drive
+v01183ad8_0 .net "branch", 0 0, o01073fc4;  0 drivers
+o01073fdc .functor BUFZ 1, C4<z>; HiZ drive
+v01183b30_0 .net "clk", 0 0, o01073fdc;  0 drivers
+v01183b88_0 .var "jTo", 31 0;
+o0107400c .functor BUFZ 26, C4<zzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0118ed80_0 .net "jTo_", 25 0, o0107400c;  0 drivers
+o01074024 .functor BUFZ 1, C4<z>; HiZ drive
+v0118edd8_0 .net "jump", 0 0, o01074024;  0 drivers
+v0118ee30_0 .var "pc", 31 0;
+o01074054 .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v0118ee88_0 .net "relativeDis", 31 0, o01074054;  0 drivers
+o0107406c .functor BUFZ 1, C4<z>; HiZ drive
+v0118eee0_0 .net "reset", 0 0, o0107406c;  0 drivers
+E_01187e10 .event posedge, v01183b30_0;
+    .scope S_01183a08;
+T_0 ;
+    %wait E_01187e10;
+    %load/vec4 v0118eee0_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.0, 8;
+    %pushi/vec4 12288, 0, 32;
+    %assign/vec4 v0118ee30_0, 0;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v0118ee30_0;
+    %addi 4, 0, 32;
+    %store/vec4 v0118ee30_0, 0, 32;
+    %load/vec4 v01183ad8_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.2, 8;
+    %load/vec4 v0118ee30_0;
+    %load/vec4 v0118ee88_0;
+    %add;
+    %store/vec4 v0118ee30_0, 0, 32;
+    %jmp T_0.3;
+T_0.2 ;
+    %load/vec4 v0118edd8_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.4, 8;
+    %load/vec4 v0118ee30_0;
+    %parti/s 4, 28, 6;
+    %load/vec4 v0118ed80_0;
+    %concat/vec4; draw_concat_vec4
+    %concati/vec4 0, 0, 2;
+    %store/vec4 v01183b88_0, 0, 32;
+    %load/vec4 v01183b88_0;
+    %store/vec4 v0118ee30_0, 0, 32;
+T_0.4 ;
+T_0.3 ;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "PC.v";

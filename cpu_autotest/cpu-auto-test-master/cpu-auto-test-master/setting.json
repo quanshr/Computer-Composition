@@ -1,0 +1,171 @@
+{
+	"FILE_PATH" : null,
+	"TEST_NUM" : 10,
+	"SKIP" : false,
+	"FORCE" : false,
+	"DEBUG" : false,
+	"OUTPUT_DIR" : "output",
+	"ASM_NAME" : "asm.asm",
+	"CODE_NAME" : "code.txt",
+	"RESULT_NAME" : "result.txt",
+	"TEST_PATH" : "",
+	"TEST_CIRC" : "output/test.circ",
+	"STD_NAME" : "std.json",
+	"OUT_NAME" : "out.json",
+	"MARS_PATH" : "Mars/Mars.jar",
+	"LOGISIM_PATH" : "Logisim/logisim.jar",
+	"P" : 5,
+	"COMPILER_TYPE" : "iverilog",
+	"COMPILER_ARGV" : "",
+	"TEST_TYPE" : "",
+	"CLASSIFY" : {
+		"cal_rr": {
+			"include" : ["add", "addu", "sub", "subu", "slt", "sltu", "and", "nor", "or", "xor", "sllv", "srav", "srlv"],
+			"struct" : ["opcode", "rs", "rt", "rd", "10:6", "funct"],
+			"mips" : ["rd", ", ", "rs", ", ", "rt"],
+			"RegWrite" : true,
+			"MemWrite" : false,
+			"jump" : false
+		},
+		"cal_ri": {
+			"include" : ["addi", "slti"],
+			"struct" : ["opcode", "rs", "rt", "immediate"],
+			"mips" : ["rt", ", ", "rs", ", ", "immediate"],
+			"RegWrite" : true,
+			"MemWrite" : false,
+			"jump" : false,
+			"immediate" : [-32768, 32767]
+		},
+		"cal_ru": {
+			"include" : ["sltiu", "andi", "ori", "xori"],
+			"struct" : ["opcode", "rs", "rt", "immediate"],
+			"mips" : ["rt", ", ", "rs", ", ", "immediate"],
+			"RegWrite" : true,
+			"MemWrite" : false,
+			"jump" : false,
+			"immediate" : [0, 65535]
+		},
+		"shift": {
+			"include" : ["sll", "sra", "srl"],
+			"struct" : ["opcode", "rs", "rt", "immediate"],
+			"mips" : ["rt", ", ", "rs", ", ", "immediate"],
+			"RegWrite" : true,
+			"MemWrite" : false,
+			"jump" : false,
+			"immediate" : [0, 31]
+		},
+		"br_r1": {
+			"include" : ["bgez", "bgtz", "blez", "bltz"],
+			"struct" : ["opcode", "rs", "num", "offset"],
+			"mips" : ["rs", ", ", "target"],
+			"RegWrite" : false,
+			"MemWrite" : false,
+			"jump" : true
+		},
+		"br_r2": {
+			"include" : ["beq", "bne"],
+			"struct" : ["opcode", "rs", "rt", "offset"],
+			"mips" : ["rs", ", ", "rt", ", ", "target"],
+			"RegWrite" : false,
+			"MemWrite" : false,
+			"jump" : true
+		},
+		"mv_fr": {
+			"include" : ["mfhi", "mflo"],
+			"struct" : ["opcode", "25:16", "rd", "10:6","funct"],
+			"mips" : ["rd"],
+			"RegWrite" : true,
+			"MemWrite" : false,
+			"jump" : false
+		},
+		"mv_to": {
+			"include" : ["mthi", "mtlo"],
+			"struct" : ["opcode", "rs", "20:6", "funct"],
+			"mips" : ["rs"],
+			"RegWrite" : false,
+			"MemWrite" : false,
+			"jump" : false
+		},
+		"load": {
+			"include" : ["lw", "lh", "lhu", "lb", "lbu"],
+			"struct" : ["opcode", "base", "rt", "offset"],
+			"mips" : ["rt",", ","offset","(","base",")"],
+			"RegWrite" : true,
+			"MemWrite" : false,
+			"jump" : false
+		},
+		"store": {
+			"include" : ["sw", "sh", "sb"],
+			"struct" : ["opcode", "base", "rt", "offset"],
+			"mips" : ["rt",", ","offset","(","base",")"],
+			"RegWrite" : false,
+			"MemWrite" : true,
+			"jump" : false
+		},
+		"mul_div": {
+			"include" : ["mult", "multu", "div", "divu"],
+			"struct" : ["opcode", "rs", "rt", "15:6", "funct"],
+			"mips" : ["rs", ", ", "rt"],
+			"RegWrite" : false,
+			"MemWrite" : false,
+			"jump" : false
+		},
+		"lui": {
+			"include" : ["lui"],
+			"struct" : ["opcode","25:21","rt","immediate"],
+			"mips" : ["rt", ", ", "immediate"],
+			"RegWrite" : true,
+			"MemWrite" : false,
+			"jump" : false
+		},
+		"jal": {
+			"include" : ["jal"],
+			"struct" : ["opcode", "instr_index"],
+			"mips" : ["target"],
+			"RegWrite" : true,
+			"MemWrite" : false,
+			"jump" : true
+		},
+		"j": {
+			"include" : ["j"],
+			"struct" : ["opcode", "instr_index"],
+			"mips" : ["target"],
+			"RegWrite" : false,
+			"MemWrite" : false,
+			"jump" : true
+		},
+		"jalr": {
+			"include" : ["jalr"],
+			"struct" : ["opcode", "rs", "20:16", "rd", "10:6", "funct"],
+			"mips" : ["rd", ", ", "rs"],
+			"RegWrite" : true,
+			"MemWrite" : false,
+			"jump" : true
+		},
+		"jr": {
+			"include" : ["jr"],
+			"struct" : ["opcode", "rs", "20:11", "10:6", "funct"],
+			"mips" : ["rs"],
+			"RegWrite" : false,
+			"MemWrite" : false,
+			"jump" : true
+		},
+		"nop": {
+			"include" : ["nop"],
+			"struct" : [],
+			"mips" : [],
+			"RegWrite" : false,
+			"MemWrite" : false,
+			"jump" : false
+		}
+	},
+	"ENBLED_INSTRUCTION_P4" : ["add","sub","ori","lw","sw","beq","lui","jal","jr","nop"],
+	"ENBLED_INSTRUCTION_P5" : ["add","sub","ori","lw","sw","beq","lui","jal","jr","nop"],
+	"ENBLED_INSTRUCTION_P6" : ["add", "sub", "and", "or", "slt", "sltu", "addu", "subu", "sll",
+							"addi", "andi", "ori", 
+							"lw", "lb", "lbu", "lh", "lhu",
+							"sb", "sh", "sw",
+							"mult", "multu", "div", "divu", "mfhi", "mflo", "mthi", "mtlo",
+							"beq", "bne",
+							"lui", "jal", "jr", "jalr", "j", "nop"]
+}

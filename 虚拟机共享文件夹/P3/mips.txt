@@ -1,0 +1,33 @@
+ori $17 $23 11144
+ori $21 $4 14906
+nop
+add $8 $22 $12
+nop
+beq $24 $11 label_1
+lui $4 10155
+label_1:
+beq $20 $18 label_2
+label_2:
+sub $12 $20 $13
+lui $9 16220
+ori $6 $2 13038
+lui $20 1294
+ori $16 $19 19720
+sub $7 $13 $18
+sub $7 $12 $25
+lui $24 5685
+ori $14 $6 2860
+beq $5 $11 label_3
+sub $4 $15 $6
+ori $0 $24 18117
+nop
+sw $20 16($0)
+sw $25 80($0)
+sw $2 64($0)
+sub $12 $8 $11
+lw $2 32($0)
+lw $20 8($0)
+beq $17 $20 label_4
+label_3:
+ori $18 $0 16948
+label_4:

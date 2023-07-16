@@ -1,0 +1,2258 @@
+[
+    {
+        "time": "42",
+        "pc": "0x00003004",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0xf2760000"
+    },
+    {
+        "time": "46",
+        "pc": "0x00003008",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x70770000"
+    },
+    {
+        "time": "50",
+        "pc": "0x0000300c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x35550000"
+    },
+    {
+        "time": "54",
+        "pc": "0x00003010",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x4a8a0000"
+    },
+    {
+        "time": "58",
+        "pc": "0x00003014",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "58",
+        "pc": "0x00003018",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000014",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "62",
+        "pc": "0x00003018",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "66",
+        "pc": "0x0000301c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "74",
+        "pc": "0x00003028",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000008",
+        "MemData": "0x4a8a0000"
+    },
+    {
+        "time": "82",
+        "pc": "0x0000302c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "82",
+        "pc": "0x00003030",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000038",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "90",
+        "pc": "0x00003034",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "94",
+        "pc": "0x0000303c",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000000c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "106",
+        "pc": "0x00003044",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00002a71"
+    },
+    {
+        "time": "110",
+        "pc": "0x0000304c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003054"
+    },
+    {
+        "time": "114",
+        "pc": "0x00003050",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x00000a60"
+    },
+    {
+        "time": "118",
+        "pc": "0x00003064",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x00000840"
+    },
+    {
+        "time": "130",
+        "pc": "0x00003074",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000048",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "142",
+        "pc": "0x0000307c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "146",
+        "pc": "0x00003054",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x00000fc9"
+    },
+    {
+        "time": "150",
+        "pc": "0x00003058",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003060"
+    },
+    {
+        "time": "154",
+        "pc": "0x0000305c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00002da5"
+    },
+    {
+        "time": "158",
+        "pc": "0x00003080",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0xffffd25b"
+    },
+    {
+        "time": "162",
+        "pc": "0x00003084",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "166",
+        "pc": "0x00003088",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x0000657f"
+    },
+    {
+        "time": "170",
+        "pc": "0x0000308c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "178",
+        "pc": "0x00003094",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x1f1f0000"
+    },
+    {
+        "time": "182",
+        "pc": "0x00003098",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0xbd430000"
+    },
+    {
+        "time": "186",
+        "pc": "0x0000309c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "19",
+        "RegData": "0x8e960000"
+    },
+    {
+        "time": "190",
+        "pc": "0x000030a0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x40980000"
+    },
+    {
+        "time": "194",
+        "pc": "0x000030a4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "202",
+        "pc": "0x000030b0",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000028",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "214",
+        "pc": "0x000030b8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0xce9e0000"
+    },
+    {
+        "time": "218",
+        "pc": "0x000030c0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "222",
+        "pc": "0x000030c8",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000048",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "238",
+        "pc": "0x000030d8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x8e960000"
+    },
+    {
+        "time": "242",
+        "pc": "0x000030dc",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "246",
+        "pc": "0x000030e4",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000024",
+        "MemData": "0x00960000"
+    },
+    {
+        "time": "250",
+        "pc": "0x000030e4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "19",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "254",
+        "pc": "0x000030e8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "262",
+        "pc": "0x000030f4",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000004c",
+        "MemData": "0x00960000"
+    },
+    {
+        "time": "266",
+        "pc": "0x000030f4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "270",
+        "pc": "0x000030f8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "278",
+        "pc": "0x00003104",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000060",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "282",
+        "pc": "0x00003104",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "19",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "286",
+        "pc": "0x00003108",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "19",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "290",
+        "pc": "0x00003110",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000003c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "294",
+        "pc": "0x00003110",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "298",
+        "pc": "0x00003114",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "19",
+        "RegData": "0x00000fb5"
+    },
+    {
+        "time": "302",
+        "pc": "0x00003118",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "310",
+        "pc": "0x00003120",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "11",
+        "RegData": "0xa5f90000"
+    },
+    {
+        "time": "314",
+        "pc": "0x00003124",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x0fa30000"
+    },
+    {
+        "time": "318",
+        "pc": "0x00003128",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "30",
+        "RegData": "0xed010000"
+    },
+    {
+        "time": "322",
+        "pc": "0x0000312c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0xbede0000"
+    },
+    {
+        "time": "326",
+        "pc": "0x00003130",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003138"
+    },
+    {
+        "time": "330",
+        "pc": "0x00003134",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "11",
+        "RegData": "0x00000001"
+    },
+    {
+        "time": "334",
+        "pc": "0x00003148",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "11",
+        "RegData": "0xfca40000"
+    },
+    {
+        "time": "338",
+        "pc": "0x0000314c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "11",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "342",
+        "pc": "0x00003154",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000018",
+        "MemData": "0x0fa30000"
+    },
+    {
+        "time": "346",
+        "pc": "0x00003154",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "354",
+        "pc": "0x0000315c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "358",
+        "pc": "0x00003138",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "362",
+        "pc": "0x0000313c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003144"
+    },
+    {
+        "time": "366",
+        "pc": "0x00003140",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "30",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "374",
+        "pc": "0x0000316c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "30",
+        "RegData": "0x00003144"
+    },
+    {
+        "time": "382",
+        "pc": "0x00003188",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000038",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "390",
+        "pc": "0x0000318c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "394",
+        "pc": "0x00003194",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000004c",
+        "MemData": "0x00960000"
+    },
+    {
+        "time": "402",
+        "pc": "0x00003198",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "30",
+        "RegData": "0x00003144"
+    },
+    {
+        "time": "414",
+        "pc": "0x000031a0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "11",
+        "RegData": "0xffffd1ba"
+    },
+    {
+        "time": "418",
+        "pc": "0x000031a8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "30",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "422",
+        "pc": "0x000031b0",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000005c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "430",
+        "pc": "0x000031b4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x000031bc"
+    },
+    {
+        "time": "434",
+        "pc": "0x000031b8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "30",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "438",
+        "pc": "0x000031cc",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "442",
+        "pc": "0x000031d0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "450",
+        "pc": "0x000031d8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "11",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "458",
+        "pc": "0x000031c0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x000031c8"
+    },
+    {
+        "time": "462",
+        "pc": "0x000031c4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "466",
+        "pc": "0x000031e4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "474",
+        "pc": "0x000031f0",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000030",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "478",
+        "pc": "0x000031f0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "30",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "486",
+        "pc": "0x000031fc",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000058",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "494",
+        "pc": "0x00003200",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "502",
+        "pc": "0x00003208",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "12",
+        "RegData": "0xfaaf0000"
+    },
+    {
+        "time": "506",
+        "pc": "0x0000320c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "13",
+        "RegData": "0x71a20000"
+    },
+    {
+        "time": "510",
+        "pc": "0x00003210",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x740d0000"
+    },
+    {
+        "time": "514",
+        "pc": "0x00003214",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x659c0000"
+    },
+    {
+        "time": "518",
+        "pc": "0x00003218",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003220"
+    },
+    {
+        "time": "522",
+        "pc": "0x0000321c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "12",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "530",
+        "pc": "0x00003240",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "538",
+        "pc": "0x0000324c",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000004c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "542",
+        "pc": "0x0000324c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "12",
+        "RegData": "0x00960000"
+    },
+    {
+        "time": "550",
+        "pc": "0x00003254",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "12",
+        "RegData": "0xffffac22"
+    },
+    {
+        "time": "554",
+        "pc": "0x00003220",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0xffffed77"
+    },
+    {
+        "time": "558",
+        "pc": "0x00003224",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x0000322c"
+    },
+    {
+        "time": "562",
+        "pc": "0x00003228",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "13",
+        "RegData": "0x0000c013"
+    },
+    {
+        "time": "566",
+        "pc": "0x00003258",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "574",
+        "pc": "0x00003264",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000054",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "582",
+        "pc": "0x00003268",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "582",
+        "pc": "0x0000326c",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000004c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "594",
+        "pc": "0x00003274",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "13",
+        "RegData": "0xffffed77"
+    },
+    {
+        "time": "598",
+        "pc": "0x00003278",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "13",
+        "RegData": "0xffffed77"
+    },
+    {
+        "time": "602",
+        "pc": "0x0000327c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "13",
+        "RegData": "0x0000e854"
+    },
+    {
+        "time": "610",
+        "pc": "0x00003288",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000054",
+        "MemData": "0x0000ed77"
+    },
+    {
+        "time": "622",
+        "pc": "0x00003290",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x0000e854"
+    },
+    {
+        "time": "634",
+        "pc": "0x00003298",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "12",
+        "RegData": "0x0000e854"
+    },
+    {
+        "time": "638",
+        "pc": "0x0000329c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x0000eefc"
+    },
+    {
+        "time": "646",
+        "pc": "0x000032a4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "654",
+        "pc": "0x000032ac",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "19",
+        "RegData": "0x5ebe0000"
+    },
+    {
+        "time": "658",
+        "pc": "0x000032b0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "23",
+        "RegData": "0xa5440000"
+    },
+    {
+        "time": "662",
+        "pc": "0x000032b4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x2c820000"
+    },
+    {
+        "time": "666",
+        "pc": "0x000032b8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x9ba50000"
+    },
+    {
+        "time": "674",
+        "pc": "0x000032c0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "19",
+        "RegData": "0x000020e1"
+    },
+    {
+        "time": "690",
+        "pc": "0x000032d8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00007f1b"
+    },
+    {
+        "time": "702",
+        "pc": "0x000032e0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x00000001"
+    },
+    {
+        "time": "706",
+        "pc": "0x000032e4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x00007c1a"
+    },
+    {
+        "time": "710",
+        "pc": "0x000032e8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "19",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "714",
+        "pc": "0x000032f0",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000004c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "722",
+        "pc": "0x000032f4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "23",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "726",
+        "pc": "0x000032f8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "23",
+        "RegData": "0xffffd3f2"
+    },
+    {
+        "time": "734",
+        "pc": "0x00003300",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "19",
+        "RegData": "0xffff83e6"
+    },
+    {
+        "time": "738",
+        "pc": "0x00003304",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "742",
+        "pc": "0x0000330c",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000010",
+        "MemData": "0xffffd3f2"
+    },
+    {
+        "time": "754",
+        "pc": "0x00003314",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "27",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "762",
+        "pc": "0x00003320",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000010",
+        "MemData": "0xffff83f2"
+    },
+    {
+        "time": "770",
+        "pc": "0x00003324",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "778",
+        "pc": "0x0000332c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0xa9ea0000"
+    },
+    {
+        "time": "782",
+        "pc": "0x00003330",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x64bf0000"
+    },
+    {
+        "time": "786",
+        "pc": "0x00003334",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0x8d290000"
+    },
+    {
+        "time": "790",
+        "pc": "0x00003338",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0xcb9c0000"
+    },
+    {
+        "time": "794",
+        "pc": "0x0000333c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0xcb9c0000"
+    },
+    {
+        "time": "798",
+        "pc": "0x00003340",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003348"
+    },
+    {
+        "time": "802",
+        "pc": "0x00003344",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0xcb9c0000"
+    },
+    {
+        "time": "806",
+        "pc": "0x00003358",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0xcb9be435"
+    },
+    {
+        "time": "810",
+        "pc": "0x0000335c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0xffffefc8"
+    },
+    {
+        "time": "818",
+        "pc": "0x00003364",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0xffffffed"
+    },
+    {
+        "time": "822",
+        "pc": "0x00003348",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x8d290000"
+    },
+    {
+        "time": "826",
+        "pc": "0x0000334c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003354"
+    },
+    {
+        "time": "834",
+        "pc": "0x00003368",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0xffffac4a"
+    },
+    {
+        "time": "838",
+        "pc": "0x0000336c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003374"
+    },
+    {
+        "time": "842",
+        "pc": "0x00003370",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0xffffd4fd"
+    },
+    {
+        "time": "846",
+        "pc": "0x00003390",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "846",
+        "pc": "0x00003394",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000005c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "854",
+        "pc": "0x00003398",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "858",
+        "pc": "0x000033a0",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000018",
+        "MemData": "0x0fa30000"
+    },
+    {
+        "time": "862",
+        "pc": "0x000033a0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x0fa30000"
+    },
+    {
+        "time": "874",
+        "pc": "0x00003374",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "878",
+        "pc": "0x0000337c",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000002c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "886",
+        "pc": "0x00003380",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003388"
+    },
+    {
+        "time": "890",
+        "pc": "0x00003384",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0x0000833b"
+    },
+    {
+        "time": "894",
+        "pc": "0x000033b8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x0fa3833b"
+    },
+    {
+        "time": "898",
+        "pc": "0x000033c0",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000044",
+        "MemData": "0x00008300"
+    },
+    {
+        "time": "902",
+        "pc": "0x000033c0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "906",
+        "pc": "0x000033c4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "914",
+        "pc": "0x000033d0",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000044",
+        "MemData": "0x00008300"
+    },
+    {
+        "time": "918",
+        "pc": "0x000033d0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0x00008300"
+    },
+    {
+        "time": "922",
+        "pc": "0x000033d4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x000033dc"
+    },
+    {
+        "time": "926",
+        "pc": "0x000033d8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0xffff9ea1"
+    },
+    {
+        "time": "930",
+        "pc": "0x000033ec",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0x00000620"
+    },
+    {
+        "time": "934",
+        "pc": "0x000033f0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0xffffbb15"
+    },
+    {
+        "time": "942",
+        "pc": "0x000033f8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "946",
+        "pc": "0x000033dc",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0xffffaa83"
+    },
+    {
+        "time": "950",
+        "pc": "0x000033e0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x000033e8"
+    },
+    {
+        "time": "954",
+        "pc": "0x000033e4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x00000001"
+    },
+    {
+        "time": "958",
+        "pc": "0x00003404",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x0000340c"
+    },
+    {
+        "time": "966",
+        "pc": "0x0000341c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "29",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "970",
+        "pc": "0x00003424",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000000",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "978",
+        "pc": "0x00003428",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x00004e8a"
+    },
+    {
+        "time": "986",
+        "pc": "0x00003430",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "990",
+        "pc": "0x0000340c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 4",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "994",
+        "pc": "0x00003410",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003418"
+    },
+    {
+        "time": "1006",
+        "pc": "0x00003438",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1010",
+        "pc": "0x00003440",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1018",
+        "pc": "0x00003448",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0xf9cf0000"
+    },
+    {
+        "time": "1022",
+        "pc": "0x0000344c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "17",
+        "RegData": "0x2e040000"
+    },
+    {
+        "time": "1026",
+        "pc": "0x00003450",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "28",
+        "RegData": "0x9f830000"
+    },
+    {
+        "time": "1030",
+        "pc": "0x00003454",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0xbd470000"
+    },
+    {
+        "time": "1034",
+        "pc": "0x00003458",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0xbd475ce0"
+    },
+    {
+        "time": "1038",
+        "pc": "0x0000345c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1042",
+        "pc": "0x00003464",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000028",
+        "MemData": "0x2e040000"
+    },
+    {
+        "time": "1050",
+        "pc": "0x00003468",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "28",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1054",
+        "pc": "0x00003470",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000020",
+        "MemData": "0xbd470000"
+    },
+    {
+        "time": "1066",
+        "pc": "0x00003478",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "17",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1070",
+        "pc": "0x00003480",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000048",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1074",
+        "pc": "0x00003480",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1078",
+        "pc": "0x00003484",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "28",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1082",
+        "pc": "0x00003488",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003490"
+    },
+    {
+        "time": "1090",
+        "pc": "0x000034a8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "17",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1094",
+        "pc": "0x000034ac",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "28",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1098",
+        "pc": "0x000034b4",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000010",
+        "MemData": "0xbd475ce0"
+    },
+    {
+        "time": "1102",
+        "pc": "0x000034b4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0xffff83f2"
+    },
+    {
+        "time": "1114",
+        "pc": "0x00003490",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1118",
+        "pc": "0x00003498",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000000",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1126",
+        "pc": "0x0000349c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x000034a4"
+    },
+    {
+        "time": "1130",
+        "pc": "0x000034a0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00002404"
+    },
+    {
+        "time": "1134",
+        "pc": "0x000034c0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1134",
+        "pc": "0x000034c4",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000054",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1138",
+        "pc": "0x000034c4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "28",
+        "RegData": "0x0000ed77"
+    },
+    {
+        "time": "1150",
+        "pc": "0x000034cc",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1158",
+        "pc": "0x000034d8",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000001c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1166",
+        "pc": "0x000034dc",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1174",
+        "pc": "0x000034e4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 3",
+        "RegData": "0x7a750000"
+    },
+    {
+        "time": "1178",
+        "pc": "0x000034e8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x6c930000"
+    },
+    {
+        "time": "1182",
+        "pc": "0x000034ec",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "23",
+        "RegData": "0xe4c40000"
+    },
+    {
+        "time": "1186",
+        "pc": "0x000034f0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00460000"
+    },
+    {
+        "time": "1190",
+        "pc": "0x000034f4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "23",
+        "RegData": "0x0000a08d"
+    },
+    {
+        "time": "1198",
+        "pc": "0x000034fc",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x0000190c"
+    },
+    {
+        "time": "1202",
+        "pc": "0x00003504",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x0000350c"
+    },
+    {
+        "time": "1206",
+        "pc": "0x00003508",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "23",
+        "RegData": "0x0000bf8d"
+    },
+    {
+        "time": "1210",
+        "pc": "0x00003524",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1218",
+        "pc": "0x00003530",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000014",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1226",
+        "pc": "0x00003534",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x0000481a"
+    },
+    {
+        "time": "1234",
+        "pc": "0x0000353c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x0000dac1"
+    },
+    {
+        "time": "1238",
+        "pc": "0x0000350c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1242",
+        "pc": "0x00003514",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000004",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1250",
+        "pc": "0x00003518",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003520"
+    },
+    {
+        "time": "1254",
+        "pc": "0x0000351c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x0000bf8d"
+    },
+    {
+        "time": "1258",
+        "pc": "0x00003540",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 3",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1266",
+        "pc": "0x0000354c",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000048",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1274",
+        "pc": "0x00003550",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x0000bf8d"
+    },
+    {
+        "time": "1282",
+        "pc": "0x00003558",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1290",
+        "pc": "0x00003564",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000005c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1294",
+        "pc": "0x00003564",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 3",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1298",
+        "pc": "0x00003568",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1306",
+        "pc": "0x00003574",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000038",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1314",
+        "pc": "0x00003578",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1318",
+        "pc": "0x00003580",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000038",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1326",
+        "pc": "0x00003584",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x0000358c"
+    },
+    {
+        "time": "1334",
+        "pc": "0x000035a8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1338",
+        "pc": "0x000035ac",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 3",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1338",
+        "pc": "0x000035b0",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000000c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1350",
+        "pc": "0x000035b8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x0000ff07"
+    },
+    {
+        "time": "1354",
+        "pc": "0x0000358c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "22",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1362",
+        "pc": "0x00003598",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000024",
+        "MemData": "0x00960000"
+    },
+    {
+        "time": "1370",
+        "pc": "0x0000359c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x000035a4"
+    },
+    {
+        "time": "1374",
+        "pc": "0x000035a0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x000089e9"
+    },
+    {
+        "time": "1378",
+        "pc": "0x000035bc",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1386",
+        "pc": "0x000035c4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x1e220000"
+    },
+    {
+        "time": "1390",
+        "pc": "0x000035c8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "13",
+        "RegData": "0x537c0000"
+    },
+    {
+        "time": "1394",
+        "pc": "0x000035cc",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "17",
+        "RegData": "0x29460000"
+    },
+    {
+        "time": "1398",
+        "pc": "0x000035d0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0xe27f0000"
+    },
+    {
+        "time": "1402",
+        "pc": "0x000035d4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "17",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1410",
+        "pc": "0x000035dc",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "13",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1418",
+        "pc": "0x000035e4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "17",
+        "RegData": "0x000080b9"
+    },
+    {
+        "time": "1422",
+        "pc": "0x000035e8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000001"
+    },
+    {
+        "time": "1434",
+        "pc": "0x000035f0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1438",
+        "pc": "0x000035f8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "17",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1438",
+        "pc": "0x000035fc",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x0000002c",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1446",
+        "pc": "0x00003600",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "17",
+        "RegData": "0x000058f9"
+    },
+    {
+        "time": "1454",
+        "pc": "0x00003608",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00003610"
+    },
+    {
+        "time": "1458",
+        "pc": "0x0000360c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1462",
+        "pc": "0x00003628",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "17",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1466",
+        "pc": "0x00003630",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000000",
+        "MemData": "0x00000000"
+    },
+    {
+        "time": "1474",
+        "pc": "0x00003634",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "13",
+        "RegData": "0xffffd928"
+    },
+    {
+        "time": "1486",
+        "pc": "0x00003610",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 7",
+        "RegData": "0x00002f3b"
+    },
+    {
+        "time": "1490",
+        "pc": "0x00003614",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x0000361c"
+    },
+    {
+        "time": "1494",
+        "pc": "0x00003618",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "13",
+        "RegData": "0x00005031"
+    },
+    {
+        "time": "1506",
+        "pc": "0x0000364c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1514",
+        "pc": "0x00003654",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 5",
+        "RegData": "0x271d0000"
+    },
+    {
+        "time": "1518",
+        "pc": "0x00003658",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x73280000"
+    },
+    {
+        "time": "1522",
+        "pc": "0x0000365c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x93220000"
+    },
+    {
+        "time": "1526",
+        "pc": "0x00003660",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x13760000"
+    },
+    {
+        "time": "1534",
+        "pc": "0x00003668",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 5",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1542",
+        "pc": "0x00003674",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000054",
+        "MemData": "0x13760000"
+    },
+    {
+        "time": "1546",
+        "pc": "0x00003674",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1550",
+        "pc": "0x00003678",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x13200000"
+    },
+    {
+        "time": "1562",
+        "pc": "0x00003680",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0xffffb263"
+    },
+    {
+        "time": "1566",
+        "pc": "0x00003684",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 5",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1570",
+        "pc": "0x00003688",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 5",
+        "RegData": "0x00003dab"
+    },
+    {
+        "time": "1574",
+        "pc": "0x0000368c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1582",
+        "pc": "0x00003698",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000008",
+        "MemData": "0x4a8ab263"
+    },
+    {
+        "time": "1586",
+        "pc": "0x00003698",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x4a8a0000"
+    },
+    {
+        "time": "1590",
+        "pc": "0x0000369c",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "24",
+        "RegData": "0x00006aca"
+    },
+    {
+        "time": "1602",
+        "pc": "0x000036a4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0x00000f67"
+    },
+    {
+        "time": "1606",
+        "pc": "0x000036a8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": "31",
+        "RegData": "0xffffe8ef"
+    },
+    {
+        "time": "1610",
+        "pc": "0x000036ac",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0x00000000"
+    },
+    {
+        "time": "1618",
+        "pc": "0x000036b8",
+        "MemWrite": true,
+        "RegWrite": false,
+        "MemAddr": "0x00000054",
+        "MemData": "0x13763dab"
+    },
+    {
+        "time": "1622",
+        "pc": "0x000036b8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 5",
+        "RegData": "0x13760000"
+    },
+    {
+        "time": "1630",
+        "pc": "0x000036c0",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 6",
+        "RegData": "0xffff8045"
+    },
+    {
+        "time": "1634",
+        "pc": "0x000036c4",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 5",
+        "RegData": "0xffffbd0f"
+    },
+    {
+        "time": "1638",
+        "pc": "0x000036c8",
+        "RegWrite": true,
+        "MemWrite": false,
+        "RegAddr": " 1",
+        "RegData": "0x00000000"
+    }
+]

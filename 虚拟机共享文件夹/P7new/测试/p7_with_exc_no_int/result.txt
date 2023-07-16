@@ -1,0 +1,20 @@
+wrong instruction is found on instr 76
+we got:
+ {
+    "time": "930",
+    "pc": "0x00003084",
+    "RegWrite": true,
+    "MemWrite": false,
+    "RegAddr": " 9",
+    "RegData": "0xxxxxxxxx"
+}
+we expected:
+ {
+    "instr": "unknown",
+    "asm": "unknown",
+    "pc": "0x00004180",
+    "RegWrite": true,
+    "MemWrite": false,
+    "RegAddr": "26",
+    "RegData": "0x00000010"
+}

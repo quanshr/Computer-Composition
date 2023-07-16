@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/co-eda/Desktop/P8/mips_txt2.xst" -ofn "/home/co-eda/Desktop/P8/mips_txt2.syr" 
+xst -intstyle ise -ifn "/home/co-eda/Desktop/P8/mips_txt2.xst" -ofn "/home/co-eda/Desktop/P8/mips_txt2.syr" 

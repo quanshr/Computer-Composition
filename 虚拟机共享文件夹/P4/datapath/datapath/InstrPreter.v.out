@@ -1,0 +1,42 @@
+#! c:/iverilog-x86/bin/vvp
+:ivl_version "10.0 (stable)" "(v10_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_01143a08 .scope module, "InstrPreter" "InstrPreter" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 32 "instr"
+    .port_info 1 /OUTPUT 5 "rs"
+    .port_info 2 /OUTPUT 5 "rt"
+    .port_info 3 /OUTPUT 5 "rd"
+    .port_info 4 /OUTPUT 16 "imm"
+    .port_info 5 /OUTPUT 6 "funct"
+    .port_info 6 /OUTPUT 6 "opcode"
+    .port_info 7 /OUTPUT 26 "imm_j"
+    .port_info 8 /OUTPUT 5 "shift"
+v01053a90_0 .net "funct", 5 0, L_010751f0;  1 drivers
+v01053900_0 .net "imm", 15 0, L_01075350;  1 drivers
+v01053e20_0 .net "imm_j", 25 0, L_01075560;  1 drivers
+o01053f6c .functor BUFZ 32, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; HiZ drive
+v01053770_0 .net "instr", 31 0, o01053f6c;  0 drivers
+v01143ad8_0 .net "opcode", 5 0, L_01075248;  1 drivers
+v01143b30_0 .net "rd", 4 0, L_01075400;  1 drivers
+v01143b88_0 .net "rs", 4 0, L_01074fe0;  1 drivers
+v0114edf0_0 .net "rt", 4 0, L_010752f8;  1 drivers
+v0114ee48_0 .net "shift", 4 0, L_010752a0;  1 drivers
+L_01075248 .part o01053f6c, 26, 6;
+L_010751f0 .part o01053f6c, 0, 6;
+L_01074fe0 .part o01053f6c, 21, 5;
+L_010752f8 .part o01053f6c, 16, 5;
+L_01075400 .part o01053f6c, 11, 5;
+L_010752a0 .part o01053f6c, 6, 5;
+L_01075350 .part o01053f6c, 0, 16;
+L_01075560 .part o01053f6c, 0, 26;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "Instr.v";

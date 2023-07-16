@@ -1,0 +1,5 @@
+verilog work "P7_standard_timer_2019.v"
+verilog work "CPU.v"
+verilog work "Bridge.v"
+verilog work "mips.v"
+verilog work "tb_withinterrupt.v"

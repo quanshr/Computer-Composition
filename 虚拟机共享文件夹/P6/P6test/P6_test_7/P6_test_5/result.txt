@@ -1,0 +1,21 @@
+wrong instruction is found on instr 8
+we got:
+ {
+    "time": "70",
+    "pc": "0x00003020",
+    "RegWrite": true,
+    "MemWrite": false,
+    "RegAddr": "14",
+    "RegData": "0x000034ec"
+}
+we expected:
+ {
+    "pc": "0x00003020",
+    "instr": "218e34ec",
+    "asm": "addi $14,$12,0x000034ec ",
+    "code": "00100001100011100011010011101100",
+    "RegWrite": true,
+    "RegAddr": "14",
+    "RegData": "0x0eda34ec",
+    "MemWrite": false
+}
